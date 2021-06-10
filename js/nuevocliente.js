@@ -1,4 +1,4 @@
-(function(){
+(function() {
     const formulario = document.querySelector('#formulario');
     formulario.addEventListener('submit', validarCliente);
 
@@ -10,21 +10,23 @@
         const telefono = document.querySelector('#telefono').value;
         const empresa = document.querySelector('#empresa').value;
 
-        const cliente = { 
-            nombre,
-            email,
+        const cliente = {
+            nombre, 
+            email, 
             telefono,
             empresa
         }
 
-        if (validar(cliente)) {
-            //mostrar mensaje 
-            console.log('Todos los campos son obligatorios');
+        if( validar(cliente) ) {
+            mostrarAlerta('Todos los campos son obligatorios');
             return;
         }
+        
     }
 
     function validar(obj) {
-        return !Object.values(obj).every( input => input !== '');
+        return !Object.values(obj).every(element => element !== '') ;
     }
-});
+
+   
+})();
