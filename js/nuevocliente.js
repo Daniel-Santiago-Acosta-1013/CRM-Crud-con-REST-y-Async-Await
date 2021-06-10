@@ -17,10 +17,14 @@
             empresa
         }
 
-        console.log(Object.values(cliente).every( input => input !== '' ));
-
-        if (condition) {
-            
+        if (validar(cliente)) {
+            //mostrar mensaje 
+            console.log('Todos los campos son obligatorios');
+            return;
         }
     }
-})
+
+    function validar(obj) {
+        return !Object.values(obj).every( input => input !== '');
+    }
+});
