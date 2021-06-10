@@ -18,10 +18,11 @@
         }
 
         if( validar(cliente) ) {
-            mostrarAlerta('Todos los campos son obligatorios');
+            //mostrar mensaje
+            console.log('todos los campos son obligatorios') 
             return;
         }
-        
+        console.log('Si se paso la validacion')
     }
 
     function validar(obj) {
