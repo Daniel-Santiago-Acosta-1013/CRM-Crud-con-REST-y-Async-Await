@@ -1,25 +1,11 @@
 {
   "clientes": [
     {
-      "nombre": "Juan NUEVO!",
-      "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
-      "id": 26
-    },
-    {
       "nombre": "Danilo Páez ",
       "email": "santiagoacosta1013@gmail.com",
       "telefono": "2456789034",
       "empresa": "industria core",
       "id": 27
-    },
-    {
-      "nombre": "Danilo Páez ",
-      "email": "santiagoacosta1013@gmail.com",
-      "telefono": "2456789034",
-      "empresa": "industria core",
-      "id": 28
     },
     {
       "nombre": "Sebastián ",
