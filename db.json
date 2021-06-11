@@ -27,6 +27,20 @@
       "telefono": "2456789034",
       "empresa": "industria core",
       "id": 29
+    },
+    {
+      "nombre": "Danilo Páez ",
+      "email": "santiagoacosta1013@gmail.com",
+      "telefono": "wedwed",
+      "empresa": "intel",
+      "id": 30
+    },
+    {
+      "nombre": "miguel antonio ",
+      "email": "miguel@gmail.com",
+      "telefono": "32043423423",
+      "empresa": "industria core",
+      "id": 31
     }
   ]
 }
